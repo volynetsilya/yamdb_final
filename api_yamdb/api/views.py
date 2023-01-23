@@ -20,7 +20,7 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           NotAdminSerializer, ReviewSerializer,
                           SignUpSerializer, TitleReadSerializer,
                           TitleWriteSerializer, UsersSerializer)
-from api.filters import TitleFilter
+from .filters import TitleFilter
 
 
 class UsersViewSet(viewsets.ModelViewSet):
