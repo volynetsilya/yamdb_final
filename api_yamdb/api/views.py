@@ -12,6 +12,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import RefreshToken
 from reviews.models import Category, Genre, Review, Title, User
 
+from .filters import TitleFilter
 from .mixins import ModelMixinSet
 from .permissions import (AdminModeratorAuthorPermission, AdminOnly,
                           IsAdminUserOrReadOnly)
@@ -20,7 +21,6 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           NotAdminSerializer, ReviewSerializer,
                           SignUpSerializer, TitleReadSerializer,
                           TitleWriteSerializer, UsersSerializer)
-from .filters import TitleFilter
 
 
 class UsersViewSet(viewsets.ModelViewSet):
