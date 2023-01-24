@@ -1,4 +1,6 @@
-![Yamdb_workflow](https://github.com/volynetsilya/yamdb_final/workflows/yamdb_workflow.yaml/badge.svg)
+![yamdb_workflow](https://github.com/volynetsilya/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+
+
 
 # Яндекс.Практикум: Проект YaMDb
 
